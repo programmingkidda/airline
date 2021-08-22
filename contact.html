@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Flight - Contact Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/hero-slider.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  </head>
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <style>
+    .header{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 10px;
+    }
+    /* Style the header links */
+    .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+    /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+    .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    }
+    /* Change the background color on mouse-over */
+    .header a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    /* Style the active/current link*/
+    .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    }
+    /* Float the link section to the right */
+    .header-right {
+    float: right;
+    }
+    /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+    @media screen and (max-width: 500px) {
+    .header a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+    .header-right {
+    float: none;
+    }
+    }
+  </style>
+  <body>
+    <div class="header">
+      <a class="navbar-brand" >
+      <img src="img/logo.png" width="100" height="30" alt="">
+      </a>
+      <a href="#" class="logo">Airline</a>
+      <div class="header-right">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a href="aboutus.html">About</a>
+      </div>
+    </div>
+    <section class="contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Airline Contact Page</h2>
+              <p> The airline is confident that, by around 2023 the airline will get to EBITDA (earnings before interest, taxes, depreciation, and amortization) will exceed 2019 levels. 
+                This last focus area is sort of a mix of confidence in returning consumer confidence and confidence in United’s ability to get people to choose it when they need to fly.
+                In conclusion, how United Airlines works to get a competitive advantage in 2022 and beyond is a strategy that will unfold as time passes.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="img/contact-01.jpg" alt="">
+          </div>
+          <div class="col-md-6">
+            <img src="img/contact-02.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <h6>Leonardo Da Vinci</h6>
+            <p>“Once you have tasted flight, you will forever walk the earth with your eyes turned skyward, for there you have been, and there you will always long to return.”
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h6>Socrates</h6>
+            <p> “Man must rise above the Earth—to the top of the atmosphere and beyond—for only thus will he fully understand the world in which he lives.”
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h6>Textile graduated or homework</h6>
+            <p>MThe desire to fly is an idea handed down to us by our ancestors who, in their grueling travels across trackless lands in prehistoric times, looked enviously on the birds soaring freely through space, at full speed, above all obstacles, on the infinite highway of the air.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Leave us a message</h2>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-3">
+            <!-- design by shubham sawant https://shubhams1401-sawant.github.io/ -->
+                  <!-- Static- Please don't do anything here-->
+                  <script type="text/javascript">
+                    var submitted=false;
+                  </script>
+                  <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='#';}"></iframe>
+            <form id="contact" action="https://docs.google.com/forms/d/e/1FAIpQLSdI0He6vgzweFkwDrT4jD4WIvepOxcRrxoRH_e6V-QYL_00cQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true; alert('Thanks to Write Message.');" class="myform">
+              <div class="row">
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="entry.600342310" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="entry.702308535" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <textarea name="entry.1778473644" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="btn">Submit Your Message</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104599.86490317872!2d74.22332989145953!3d16.72687022373264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1000cdec07a29%3A0xece8ea642952e42f!2sKolhapur%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1628933338739!5m2!1sen!2sin" style="border:0; width: 100%; height: 80vh;" allowfullscreen="" loading="fast"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="primary-button">
+              <a href="#" class="scroll-top">Back To Top</a>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          // navigation click actions 
+          $('.scroll-link').on('click', function(event){
+              event.preventDefault();
+              var sectionID = $(this).attr("data-id");
+              scrollToID('#' + sectionID, 750);
+          });
+          // scroll to top action
+          $('.scroll-top').on('click', function(event) {
+              event.preventDefault();
+              $('html, body').animate({scrollTop:0}, 'slow');         
+          });
+          // mobile nav toggle
+          $('#nav-toggle').on('click', function (event) {
+              event.preventDefault();
+              $('#main-nav').toggleClass("open");
+          });
+      });
+      // scroll function
+      function scrollToID(id, speed){
+          var offSet = 0;
+          var targetOffset = $(id).offset().top - offSet;
+          var mainNav = $('#main-nav');
+          $('html,body').animate({scrollTop:targetOffset}, speed);
+          if (mainNav.hasClass("open")) {
+              mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+              mainNav.removeClass("open");
+          }
+      }
+      if (typeof console === "undefined") {
+          console = {
+              log: function() { }
+          };
+      }
+    </script>
+  </body>
+</html>
